@@ -8,7 +8,7 @@
   position: absolute;
   top: 40%;
   left: 50%;
-  transform: translate(-50%, -50%); /* Center the content */
+  transform: translate(-50%, -50%);
   text-align: center;
   color: var(--text);
   margin: 0;
@@ -36,6 +36,22 @@
   background-clip: text;
   margin: 0;
   padding: 0;
+}
+
+.hero-btn {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  border: none;
+  font-size: 1.5rem;
+  font-family: var(--font-body);
+  background: var(--gradient-primary);
+  color: var(--text);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
 .headphone {
@@ -73,7 +89,7 @@
 @keyframes float {
   0%,
   100% {
-    transform: translateY(0);
+    transform: translateY(10px);
   }
 
   50% {
