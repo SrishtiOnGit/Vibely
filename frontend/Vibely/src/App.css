@@ -7,3 +7,89 @@
 body {
   background-color: var(--bg);
 }
+
+.line {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: none;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--primary),
+    transparent
+  );
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--surface);
+  width: 100%;
+  margin: auto;
+  margin-top: 2rem;
+  height: 3rem;
+}
+
+.footer-list {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  align-items: center;
+  font-family: var(--font-body);
+  color: var(--text);
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+.footer-l a {
+  text-decoration: none;
+  color: var(--text);
+  margin-right: 3rem;
+  margin-left: auto;
+  gap: 5px;
+}
+
+.footer-l a:hover {
+  color: var(--accent);
+}
+
+.footer-n {
+  text-decoration: none;
+  color: var(--text);
+  margin-right: 3rem;
+  margin-left: auto;
+  gap: 5px;
+}
+
+.footer-n:hover {
+  color: var(--accent);
+}
+
+.footer-para {
+  color: var(--text);
+  font-family: var(--font-body);
+  text-align: center;
+}
+
+.git {
+  margin-right: 3rem;
+  color: var(--text);
+  font-family: var(--font-body);
+  text-align: center;
+  background-clip: text;
+  margin: 0;
+  padding: 0;
+  color: var(--text);
+  border-radius: 50px;
+  gap: 5px;
+}
+
+.git a {
+  text-decoration: none;
+  color: var(--primary);
+  margin-right: 3rem;
+  margin-left: auto;
+  gap: 5px;
+}
