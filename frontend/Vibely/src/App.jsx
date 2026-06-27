@@ -1,11 +1,15 @@
 import "./App.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
 import Features from "./components/Features.jsx";
 import About from "./components/about.jsx";
+import SignUp from "./Pages/signup.jsx";
+import Login from "./Pages/login.jsx";
+import Dashboard from "./Pages/dashboard.jsx";
 
-function App() {
+function HomePage() {
   return (
     <>
       <Navbar />
@@ -22,12 +26,12 @@ function App() {
           <li className="footer-l">
             <a href="#features">Features</a>
           </li>
-          <Link to="/login" className="footer-n">
+          <NavLink to="/login" className="footer-n">
             Login
-          </Link>
-          <Link to="/signup" className="footer-n">
+          </NavLink>
+          <NavLink to="/signup" className="footer-n">
             Sign Up
-          </Link>
+          </NavLink>
         </ul>
 
         <p className="footer-para">&copy; 2026 Vibely. All rights reserved.</p>
@@ -38,6 +42,17 @@ function App() {
         </p>
       </footer>
     </>
+  );
+}
+
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/signup" element={<SignUp />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/dashboard" element={<Dashboard />} />
+    </Routes>
   );
 }
 
