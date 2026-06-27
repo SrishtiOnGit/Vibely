@@ -23,4 +23,19 @@ Vibely is an app which will give you a personalised music experience depending o
 5.Click on the Generate Vibe Button.
 6. After that you will have a song for generate vibe.
 
+## Demo Link:
+https://srishtiongit.github.io/Vibely/
+
+<img width="1918" height="920" alt="Screenshot 2026-06-27 154035" src="https://github.com/user-attachments/assets/15270b3d-1b71-4aeb-aed6-a87014a171cc" />
+
+
+## Note:
+I tried my best to write this readme.
+
+## For any Query:
+Mail on "srishti.pixelmind@gmail.com" OR "srishti.school2010@gmail.com".
+
+### Thanks for giving your precious time reading this.
+
+
 
